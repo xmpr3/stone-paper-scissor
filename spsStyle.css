@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: black;
+	color: ghostwhite;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.images{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	font-size: 15vmin;
+	user-select: none;
+}
+.hover:hover{
+	transition: transform 0.3s ease;
+	transform: scale(1.3);
+	cursor: default;
+}
+
+.parent{
+	text-align: center;
+}
+
+.winCounter{
+	background-color: blue;
+	color: ghostwhite;
+	display: inline-block;
+	border: none;
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+.whoWon {
+	margin-top: 3rem;
+}
+
+.win{
+	background-color: yellowgreen;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 1rem;
+}
+.loss{
+	background-color: red;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 1rem;
+}
+.draw{
+	background-color: yellow;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 1rem;
+}
